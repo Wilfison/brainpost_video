@@ -2,7 +2,8 @@
 
 require_relative '../lib/brainpost_video'
 
-BrainpostVideo.ffmpeg_binary = '/home/william/app/ffmpeg/ffmpeg'
+# use custom ffmpeg version
+# BrainpostVideo.ffmpeg_binary = '$HOME/app/ffmpeg/ffmpeg'
 
 current_path = File.expand_path(File.dirname(__FILE__))
 
